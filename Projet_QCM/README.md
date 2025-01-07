@@ -19,12 +19,6 @@ Vous devrez afficher le score final ainsi que le corrigé à la fin du test.
 Pas de rapport écrit. Vous serez évalué sur la qualité de votre programme, sur le
 respect des consignes et s’il fonctionne comme attendu.
 
-## Installation
-
-1. Clonez ce dépôt Git.
-2. Assurez-vous d'avoir Python installé.
-3. Exécutez le fichier `main.py` pour lancer le QCM.
-
 ## Tests
 
 Lancez `test_qcm.py` pour exécuter les tests unitaires.
