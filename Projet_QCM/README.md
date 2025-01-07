@@ -1,6 +1,6 @@
-## Langage Python 5RC-IN1
+# Langage Python 5RC-IN1
 
-## Projet QCM
+# Projet QCM
 
 ## Enoncé du projet
 
@@ -25,8 +25,8 @@ respect des consignes et s’il fonctionne comme attendu.
 2. Assurez-vous d'avoir Python installé.
 3. Exécutez le fichier `main.py` pour lancer le QCM.
 
-#  Tests
+## Tests
 
 Lancez `test_qcm.py` pour exécuter les tests unitaires.
 
-#  FIN READ.md
+# FIN READ.md
