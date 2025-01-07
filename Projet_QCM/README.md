@@ -21,6 +21,6 @@ respect des consignes et s’il fonctionne comme attendu.
 
 ## Tests
 
-Lancez `test_qcm.py` pour exécuter les tests unitaires.
+Lancez `python -m unittest test_qcm.py` pour exécuter les tests unitaires.
 
 # FIN READ.md
