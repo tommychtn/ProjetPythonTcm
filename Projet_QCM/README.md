@@ -23,4 +23,4 @@ respect des consignes et s’il fonctionne comme attendu.
 
 Lancez `python -m unittest test_qcm.py` pour exécuter les tests unitaires.
 
-# FIN READ.md
+# FIN readme.md
