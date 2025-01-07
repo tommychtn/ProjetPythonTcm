@@ -1,4 +1,5 @@
 # Langage Python 5RC-IN1
+# ########################################################################
 
 # Projet QCM
 
@@ -30,3 +31,4 @@ respect des consignes et s’il fonctionne comme attendu.
 Lancez `test_qcm.py` pour exécuter les tests unitaires.
 
 # FIN READ.md
+# ########################################################################

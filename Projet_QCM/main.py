@@ -15,7 +15,13 @@ from question import Question
 
 def main():
 
-    # Création des questions
+    print("\n#########################################")
+    print("##")
+    print("##   QUESTION QCM")        
+    print("##")
+    print("#########################################\n")
+
+    # Creation des questions
     questions = [
         Question("Quelle est la capitale de la France ?", ["Paris", "Lyon", "Marseille"], 0),
         Question("Combien font 2 + 2 ?", ["3", "4", "5"], 1),
@@ -24,9 +30,9 @@ def main():
     
     # Initialisation du QCM
     qcm = QCM(questions)
-    qcm.shuffle_questions()
-    qcm.ask_questions()
-    qcm.show_results()
+    qcm.ordre_questions()
+    qcm.demande_questions()
+    qcm.Resultats()
 
 if __name__ == "__main__":
     main()
