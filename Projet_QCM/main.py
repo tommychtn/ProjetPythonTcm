@@ -6,8 +6,8 @@
 ##  IMPORT
 #########################################################################
 
-from Projet_QCM.qcm import QCM
-from Projet_QCM.question import Question
+from qcm import QCM
+from question import Question
 
 #########################################################################
 ##  FONCTION MAIN

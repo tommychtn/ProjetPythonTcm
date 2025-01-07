@@ -7,7 +7,7 @@
 #########################################################################
 
 import random
-from Projet_QCM.question import Question
+from question import Question
 
 #########################################################################
 ##  CLASS
