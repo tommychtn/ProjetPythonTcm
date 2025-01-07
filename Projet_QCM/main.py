@@ -1,5 +1,5 @@
-from qcm import QCM
-from question import Question
+from Projet_QCM.qcm import QCM
+from Projet_QCM.question import Question
 
 def main():
     # Créer les questions

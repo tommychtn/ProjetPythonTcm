@@ -1,5 +1,5 @@
 import random
-from question import Question
+from Projet_QCM.question import Question
 
 class QCM:
     def __init__(self, questions):
