@@ -60,7 +60,7 @@ class QCM:
         for i, (question, correct) in enumerate(self.responses):
             correct_answer = question.choices[question.correct_choice]
             print(f"Question {i + 1}: {question.text}")
-            print(f"  Votre reponse : {'VRAI' if correct else 'FAUX'}")
+            print(f"  Votre reponse : {'VRAI ✅' if correct else 'FAUX ❌'}")
             print(f"  Bonne reponse : {correct_answer}\n")
 
 
