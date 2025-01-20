@@ -1,6 +1,18 @@
-from password_generator import PasswordGenerator
-from password_tester import PasswordTester
-from passphrase_generator import PassphraseGenerator
+#########################################################################
+##  main.py
+#########################################################################
+
+#########################################################################
+##  IMPORT
+#########################################################################
+
+from GenerateurMDP import PasswordGenerator
+from TesterMDP import PasswordTester
+from passphrase import PassphraseGenerator
+
+#########################################################################
+##  FONCTION MAIN
+#########################################################################
 
 def main():
     print("=== Générateur et Testeur de mots de passe ===")
@@ -47,3 +59,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#########################################################################
+##  FIN main.py
+#########################################################################

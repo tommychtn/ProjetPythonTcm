@@ -1,6 +1,6 @@
 import unittest
-from password_generator import PasswordGenerator
-from password_tester import PasswordTester
+from GenerateurMDP import PasswordGenerator
+from TesterMDP import PasswordTester
 
 class TestPassword(unittest.TestCase):
     def test_password_generation(self):
