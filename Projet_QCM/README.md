@@ -21,6 +21,8 @@ respect des consignes et s’il fonctionne comme attendu.
 
 ## Tests
 
+Ouvrez un Terminal
+Mettez vous dans le bon folder
 Lancez `python -m unittest test_qcm.py` pour exécuter les tests unitaires.
 
 # FIN readme.md

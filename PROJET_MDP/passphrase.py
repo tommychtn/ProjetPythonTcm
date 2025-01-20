@@ -25,7 +25,7 @@ class PassphraseGenerator:
         # Vérifier si le fichier existe
         if not os.path.exists(file_path):
             raise FileNotFoundError(
-                f"Le fichier '{file_path}' est introuvable. Assurez-vous qu'il est dans le répertoire correct."
+                f"Le fichier '{file_path}' est introuvable"
             )
         
         with open(file_path, "r") as f:
