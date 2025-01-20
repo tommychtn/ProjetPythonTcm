@@ -7,7 +7,6 @@
 #########################################################################
 
 from GenerateurMDP import PasswordGenerator
-from TesterMDP import PasswordTester
 from passphrase import PassphraseGenerator
 
 #########################################################################
@@ -15,47 +14,39 @@ from passphrase import PassphraseGenerator
 #########################################################################
 
 def main():
-    print("=== Générateur et Testeur de mots de passe ===")
+    print("\nGENERATEUR DE MOT DE PASSE !!!")
     
     while True:
         print("\n1. Générer un mot de passe")
-        print("2. Tester la force d'un mot de passe")
-        print("3. Générer une passphrase")
-        print("4. Quitter")
+        print("2. Générer une passphrase")
+        print("3. Quitter")
         
         choice = input("Choisissez une option : ")
         
+        # MDP Aleatoires
         if choice == "1":
-            # Demander les critères du mot de passe
+            # Demander les criteres du mot de passe
             lc = int(input("Nombre de lettres minuscules : "))
             uc = int(input("Nombre de lettres majuscules : "))
             digits = int(input("Nombre de chiffres : "))
-            specials = int(input("Nombre de caractères spéciaux : "))
+            specials = int(input("Nombre de caractères specials : "))
             
             password = PasswordGenerator.generate_password(lc, uc, digits, specials)
-            entropy = PasswordTester.calculate_entropy(password)
-            strength = PasswordTester.evaluate_strength(entropy)
             
-            print(f"Mot de passe généré : {password}")
-            print(f"Entropie : {entropy:.2f} bits - Force : {strength}")
-        
+            print(f"Mot de passe generé : {password}")
+
+        # Passphrase
         elif choice == "2":
-            password = input("Entrez un mot de passe à tester : ")
-            entropy = PasswordTester.calculate_entropy(password)
-            strength = PasswordTester.evaluate_strength(entropy)
-            
-            print(f"Entropie : {entropy:.2f} bits - Force : {strength}")
-        
-        elif choice == "3":
             word_count = int(input("Nombre de mots dans la passphrase : "))
             passphrase = PassphraseGenerator.generate_passphrase(word_count)
             print(f"Passphrase générée : {passphrase}")
         
-        elif choice == "4":
-            print("Au revoir !")
+        # Sortie du script
+        elif choice == "3":
+            print("FIN")
             break
         else:
-            print("Choix invalide. Réessayez.")
+            print("ERREUR")
 
 if __name__ == "__main__":
     main()

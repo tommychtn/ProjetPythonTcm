@@ -25,7 +25,7 @@ class PasswordGenerator:
         digits = random.choices(string.digits, k=digit_count)
         specials = random.choices("!@#$%^&*()-_=+<>?/|", k=special_count)
         
-        # Chnage l'ordre d'appartion des caracteres
+        # Chnage l'ordre d'apparition des caracteres
         password = lowercase + uppercase + digits + specials
         random.shuffle(password)
         

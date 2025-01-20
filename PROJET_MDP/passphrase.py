@@ -18,10 +18,8 @@ class PassphraseGenerator:
     
     @staticmethod
     def generate_passphrase(word_count):
-        """
-        Génère une passphrase à partir d'une liste de mots.
-        """
-        # Construire un chemin relatif basé sur le fichier actuel
+
+        # Chemin vers la liste "eff_large_wordlist.txt"
         file_path = os.path.join(os.path.dirname(__file__), "eff_large_wordlist.txt")
         
         # Vérifier si le fichier existe
