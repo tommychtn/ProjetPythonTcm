@@ -14,8 +14,8 @@ Ce github regroupe 2 projets en python dont :
 
 ## Tests
 
-1. Ouvrez un termninal
-2. Allez dans le bon repertoire et bon dossier
-3. Exécutez les fichiers `main.py` pour lancer les projets
+1. Ouvrez un termninal.
+2. Allez dans le bon repertoire et bon dossier.
+3. Exécutez les fichiers `main.py` pour lancer les projets.
 
 #  FIN readme.md
