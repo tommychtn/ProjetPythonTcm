@@ -32,5 +32,5 @@ class PasswordGenerator:
         return ''.join(password)
 
 #########################################################################
-##  FIN generateurMDP.py
+##  FIN - generateurMDP.py
 #########################################################################
