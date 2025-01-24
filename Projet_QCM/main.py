@@ -31,11 +31,10 @@ def main():
         Question("Combien font 12 - 4 ?", ["8", "7", "9"], 0),
         Question("Combien font 6 x 2 ?", ["12", "14", "10"], 0),
         Question("Combien font 15 ÷ 3 ?", ["4", "5", "6"], 1),
-        Question("Combien font 8 + 2 x 3 (suivant l'ordre des priorités) ?", ["30", "14", "10"], 1),
+        Question("Combien font 8 + 2 x 3 ?", ["30", "14", "10"], 1),
         Question("Combien font 9 - 3 + 1 ?", ["5", "7", "6"], 2),
     ]
 
-    
     # Initialisation du QCM
     qcm = QCM(questions)
     qcm.ordre_questions()

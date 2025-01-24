@@ -29,7 +29,7 @@ def main():
             lc = int(input("Nombre de lettres minuscules : "))
             uc = int(input("Nombre de lettres majuscules : "))
             digits = int(input("Nombre de chiffres : "))
-            specials = int(input("Nombre de caractères specials : "))
+            specials = int(input("Nombre de caracteres specials : "))
             
             password = PasswordGenerator.generate_password(lc, uc, digits, specials)
             

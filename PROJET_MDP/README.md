@@ -24,5 +24,6 @@ respectant les critères de l’ANSSI : https://www.ssi.gouv.fr/administration/p
 Ouvrez un Terminal
 Mettez vous dans le bon folder
 Lancez `python -m unittest test_password.py` pour exécuter les tests unitaires
+Exécutez les fichiers `main.py` pour lancer le projet
 
 # FIN readme.md

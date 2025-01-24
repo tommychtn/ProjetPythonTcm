@@ -15,17 +15,17 @@ from question import Question
 
 class QCM:
 
-    ## initialisation du QCM avec une liste dse questions
+    # initialisation du QCM avec une liste dse questions
     def __init__(self, questions):
         self.questions = questions
         self.score = 0
         self.responses = []
 
-    ## melange l'ordre des questions
+    # melange l'ordre des questions
     def ordre_questions(self):
         random.shuffle(self.questions)
 
-    ## pose les questions à l'user
+    # pose les questions à l'user
     def demande_questions(self):
         for i, question in enumerate(self.questions):
             print(f"\nQuestion {i + 1}: {question.text}")
@@ -41,7 +41,7 @@ class QCM:
             if correct:
                 self.score += 1
 
-    ## affiche le score et la correction
+    # affiche le score et la correction
     def Resultats(self):
         print("\n\n#########################################")
         print("##")
